@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1692672236 "/Users/yeyouming/Desktop/my side projects/cv/CV.tex" "CV.pdf" "CV" 1692672237 0
-  "/Users/yeyouming/Desktop/my side projects/cv/CV.tex" 1692672236 11563 2def02f341b119921a39a4181456db39 ""
+["pdflatex"] 1692672327 "/Users/yeyouming/Desktop/my side projects/cv/CV.tex" "CV.pdf" "CV" 1692672328 0
+  "/Users/yeyouming/Desktop/my side projects/cv/CV.tex" 1692672327 11563 cc54d25ad3e8c26cc27d451c1ced62a7 ""
   "/opt/homebrew/Cellar/texlive/20230313/share/texmf-dist/fonts/enc/dvips/cfr-lm/t1-clm.enc" 1678549815 3104 554211af71f34bcdc3ed0d44a5fba87f ""
   "/opt/homebrew/Cellar/texlive/20230313/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc" 1678549815 2971 def0b6c1f0b107b3b936def894055589 ""
   "/opt/homebrew/Cellar/texlive/20230313/share/texmf-dist/fonts/enc/dvips/fontawesome5/fa5brands0.enc" 1678549815 2920 d63721872b8c77041b88e51b8f7c291d ""
@@ -254,9 +254,9 @@
   "/opt/homebrew/Cellar/texlive/20230313/share/texmf-dist/tex/latex/xkeyval/xkeyval.sty" 1678549815 4937 4ce600ce9bd4ec84d0250eb6892fcf4f ""
   "/opt/homebrew/Cellar/texlive/20230313/share/texmf-dist/web2c/texmf.cnf" 1678549815 40748 4081c8bc921e56c865f975bd762e388c ""
   "/opt/homebrew/Cellar/texlive/20230313/share/texmf-var/web2c/pdftex/pdflatex.fmt" 1678549815 7884051 6150841049f6b32097d30d486f45dac7 ""
-  "CV.aux" 1692672237 1040 462a4e45d74f7ac0c9915db83404dc90 "pdflatex"
-  "CV.out" 1692672237 451 0154ded7f3360b0689f536537515e476 "pdflatex"
-  "CV.tex" 1692672236 11563 2def02f341b119921a39a4181456db39 ""
+  "CV.aux" 1692672328 1040 462a4e45d74f7ac0c9915db83404dc90 "pdflatex"
+  "CV.out" 1692672328 451 0154ded7f3360b0689f536537515e476 "pdflatex"
+  "CV.tex" 1692672327 11563 cc54d25ad3e8c26cc27d451c1ced62a7 ""
   (generated)
   "CV.aux"
   "CV.log"
