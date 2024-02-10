@@ -1,10 +1,10 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023/Homebrew) (preloaded format=xelatex 2023.6.22)  23 NOV 2023 15:56
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023/Homebrew) (preloaded format=xelatex 2023.6.22)  10 FEB 2024 15:36
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"/Users/yeyouming/Desktop/my side projects/cv/CV"
-(/Users/yeyouming/Desktop/my side projects/cv/CV.tex
+**/Users/yeyouming/Desktop/CV/CV
+(/Users/yeyouming/Desktop/CV/CV.tex
 LaTeX2e <2022-11-01> patch level 1
 L3 programming layer <2023-02-22> (/opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2022/07/02 v1.4n Standard LaTeX document class
@@ -910,33 +910,23 @@ LaTeX Font Warning: Font shape `T1/cmr/b/sc' undefined
 (Font)              using `T1/cmr/bx/sc' instead on input line 268.
 
 
-LaTeX Font Warning: Font shape `T1/cmr/b/sc' undefined
-(Font)              using `T1/cmr/bx/sc' instead on input line 281.
-
-
 Package fancyhdr Warning: \footskip is too small (0.0pt): 
 (fancyhdr)                Make it at least 4.08003pt, for example:
 (fancyhdr)                \setlength{\footskip}{4.08003pt}.
 
 [1
 
-]
-
-Package fancyhdr Warning: \footskip is too small (0.0pt): 
-(fancyhdr)                Make it at least 4.08003pt, for example:
-(fancyhdr)                \setlength{\footskip}{4.08003pt}.
-
-[2] (./CV.aux)
+] (./CV.aux)
 Package rerunfilecheck Info: File `CV.out' has not changed.
-(rerunfilecheck)             Checksum: CD7F6A67EF35B792D4D84816252F26D5;567.
+(rerunfilecheck)             Checksum: 0154DED7F3360B0689F536537515E476;451.
  ) 
 Here is how much of TeX's memory you used:
  31096 strings out of 476683
- 624248 string characters out of 5794344
- 1871018 words of memory out of 5000000
+ 624197 string characters out of 5794344
+ 1870018 words of memory out of 5000000
  50773 multiletter control sequences out of 15000+600000
  554875 words of font info for 78 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 90i,11n,99p,782b,480s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 90i,11n,99p,456b,480s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on CV.pdf (2 pages).
+Output written on CV.pdf (1 page).
