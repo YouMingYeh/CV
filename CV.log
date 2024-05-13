@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023/Homebrew) (preloaded format=xelatex 2023.6.22)  10 APR 2024 14:29
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023/Homebrew) (preloaded format=xelatex 2023.6.22)  13 MAY 2024 19:26
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -904,10 +904,10 @@ LaTeX Font Warning: Font shape `T1/cmr/b/sc' undefined
 (Font)              using `T1/cmr/bx/sc' instead on input line 219.
 
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <9> on input line 236.
+(Font)              <9> on input line 247.
 
 LaTeX Font Warning: Font shape `T1/cmr/b/sc' undefined
-(Font)              using `T1/cmr/bx/sc' instead on input line 305.
+(Font)              using `T1/cmr/bx/sc' instead on input line 313.
 
 
 Package fancyhdr Warning: \footskip is too small (0.0pt): 
@@ -923,7 +923,7 @@ Package rerunfilecheck Info: File `CV.out' has not changed.
 Here is how much of TeX's memory you used:
  31096 strings out of 476683
  624197 string characters out of 5794344
- 1873018 words of memory out of 5000000
+ 1874018 words of memory out of 5000000
  50773 multiletter control sequences out of 15000+600000
  554875 words of font info for 78 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
