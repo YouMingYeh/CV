@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.7.14)  24 SEP 2024 22:32
+This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.7.14)  14 DEC 2024 02:24
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -904,18 +904,18 @@ LaTeX Font Info:    Font shape `T1/clm2j/b/n' in size <10> not available
 (Font)              Font shape `T1/clm2j/bx/n' tried instead on input line 187.
 
 LaTeX Font Warning: Font shape `T1/cmr/b/sc' undefined
-(Font)              using `T1/cmr/bx/sc' instead on input line 226.
+(Font)              using `T1/cmr/bx/sc' instead on input line 218.
 
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <9> on input line 233.
+(Font)              <9> on input line 225.
 
-Overfull \hbox (185.31195pt too wide) in alignment at lines 294--294
+Overfull \hbox (185.31195pt too wide) in alignment at lines 286--286
 [] [] 
  []
 
 
 LaTeX Font Warning: Font shape `T1/cmr/b/sc' undefined
-(Font)              using `T1/cmr/bx/sc' instead on input line 352.
+(Font)              using `T1/cmr/bx/sc' instead on input line 345.
 
 
 Package fancyhdr Warning: \footskip is too small (0.0pt): 
@@ -935,7 +935,7 @@ Package rerunfilecheck Info: File `CV.out' has not changed.
 Here is how much of TeX's memory you used:
  30935 strings out of 474773
  608535 string characters out of 5757724
- 1951839 words of memory out of 5000000
+ 1949839 words of memory out of 5000000
  52529 multiletter control sequences out of 15000+600000
  600657 words of font info for 82 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
