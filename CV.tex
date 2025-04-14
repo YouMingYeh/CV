@@ -40,18 +40,18 @@
 %\addtolength{\textwidth}{1in}
 \usepackage[most]{tcolorbox}
 \tcbset{
-	frame code={}
-	center title,
-	left=0pt,
-	right=0pt,
-	top=0pt,
-	bottom=0pt,
-	colback=gray!20,
-	colframe=white,
-	width=\dimexpr\textwidth\relax,
-	enlarge left by=-2mm,
-	boxsep=4pt,
-	arc=0pt,outer arc=0pt,
+    frame code={}
+    center title,
+    left=0pt,
+    right=0pt,
+    top=0pt,
+    bottom=0pt,
+    colback=gray!20,
+    colframe=white,
+    width=\dimexpr\textwidth\relax,
+    enlarge left by=-2mm,
+    boxsep=4pt,
+    arc=0pt,outer arc=0pt,
 }
 
 \urlstyle{same}
@@ -180,6 +180,16 @@
 \resumeSubHeadingListStart
 
 \resumeSubheading
+{Kardomo.com}{Jan. 2024 - Present}
+{Co-founder \& Technical Lead}{Full-stack Development, DevOps, UI/UX}
+\vspace{-1.0mm}
+\resumeItemListStart
+\item {Led end-to-end development of a K-pop marketplace, managing full-stack implementation (frontend, backend) and infrastructure setup from the ground up.}
+\item {Spearheaded all engineering efforts (backend, frontend, infrastructure) as part of the NTU Garage incubation program.}
+\resumeItemListEnd
+\vspace{-3.0mm}
+
+\resumeSubheading
 {Chunghwa Telecom Laboratories (Work)}{Jul. 2023 - Aug. 2023}
 {Full Stack Developer Intern}{UI/UX, Frontend, Backend, Database, Devops}
 \vspace{-2.0mm}
@@ -205,8 +215,8 @@
 {Full-Stack Developer and Project Manager}{Next.js, PostgreSQL, SupaBase, SEO}
 \vspace{-1.0mm}
 \resumeItemListStart
-\item {Developed a customized interactive game platform using Next.js, and PostgreSQL.}
-\item {Received over 300+ players within a week}
+\item {Developed and deployed a customized interactive game platform using Next.js and PostgreSQL.}
+\item {Attracted over 300+ players within a week.}
 \resumeItemListEnd
 \vspace{-3.0mm}
 \resumeSubHeadingListEnd
@@ -219,24 +229,26 @@
 \resumeSubHeadingListStart
 
 \resumeProject
-{Portfolio Website} %Project Name
-{A personal portfolio website. \href{https://marx.adastra.tw/}{\underline{Link}}} %Project Name, Location Name
-{Sep. 2024} %Event Dates
+{Mono App} %Project Name
+{A 30-day challenge app for goal tracking and habit formation. Available on the App Store.} %Project Name, Location Name
+{Apr. 2024} %Event Dates
 
 \resumeItemListStart
+\item {Developed and launched a habit-tracking iOS app, achieving 1k+ downloads and 200 DAUs within the first week.}
+\item {Solely managed the entire backend infrastructure (VPS setup, deployment) and achieved a 4.5+ App Store rating.}
 \resumeItemListEnd
-\vspace{-6.0mm}
+\vspace{-3.0mm}
 
-% \resumeProject
-% {Commit Chad} %Project Name
-% {An AI-powered CLI tool designed to assist with crafting commit messages. \href{https://github.com/YouMingYeh/commit-chad}{\underline{Link}}} %Project Name, Location Name
-% {Feb. 2024} %Event Dates
+\resumeProject
+{SamGPT} %Project Name
+{An AI-powered English tutor using advanced language models.} %Project Name, Location Name
+{Mar. 2024} %Event Dates
 
-% \resumeItemListStart
-% \item {Developed an AI-enhanced CLI tool, built on google/zx, to facilitate developers in creating more effective commit messages.}
-% \item {Received over thousands of downloads within a month.}
-% \resumeItemListEnd
-% \vspace{-3.0mm}
+\resumeItemListStart
+\item {Designed a sophisticated AI pipeline incorporating ReAct and Chain-of-Thought reasoning, achieving 95\%+ correct response rate.}
+\item {Engineered the full-stack application (Next.js, APIs) and managed deployment, attracting 700+ waitlist signups.}
+\resumeItemListEnd
+\vspace{-3.0mm}
 
 \resumeProject
 {Production Scheduling Optimization} %Project Name
@@ -249,36 +261,6 @@
 \resumeItemListEnd
 \vspace{-3.0mm}
 
-% \resumeProject{GitHub Blog App}
-% {A dynamic, Notion-inspired WYSIWYG editor ingeniously leveraging GitHub Issues as a backend. \href{https://github.com/YouMingYeh/github-blog}{\underline{Link}}} %Project Name, Location Name
-% {Jan. 2024} %Event Dates
-
-% \resumeItemListStart
-% \item {Engineered a comprehensive blog application using Next.js, and GitHub Issues, enabling users to effortlessly create and disseminate blogs.}
-% \item {Incorporated the advanced Next.js features to enhance server-side rendering and SEO, which resulted in scores of almost 100 for all Lighthouse performance metrics.}
-% \resumeItemListEnd
-
-% \resumeProject{Deep Learning for Geoguessr} %Project Name
-% {Deep learning approaches on Geoguessr game. \href{https://github.com/YouMingYeh/dl}{\underline{Link}}}
-% %Project Name, Location Name
-% {Apr. 2024} %Event Dates
-
-% \resumeItemListStart
-% \item {Engineered and designed comprehensive approaches and pipelines for deep learning models to predict the location of Geoguessr images.}
-% \item {Experimented with various deep learning models, including ViT, MobileNet, embedding-based KNN models, and ensemble models, to achieve 62\% accuracy.}
-% \resumeItemListEnd
-
-% \resumeProject{SkyBlockGPT} %Project Name
-% {A Feature-Rich AI Chatbot for Game Walkthrough \href{https://skyblock-gpt.vercel.app}{\underline{Link}}}
-% %Project Name, Location Name
-% {July. 2024} %Event Dates
-
-% \resumeItemListStart
-% \item {Developed a feature-rich AI chatbot for game walkthroughs using Multiple LLMs, Advanced RAG, Online Browsing, and Wide-Range APIs Integration.}
-% \item {Received over 1000+ monthly active game players within a month.}
-% \resumeItemListEnd
-% \vspace{-2.0mm}
-
 \resumeProject{LLM Agents Enhanced INFEKTA} %Project Name
 {An agent-based epidemic model combines the transmission dynamics of an infectious disease with agents in a complex network, enhanced by LLM cognitive model.}
 %Project Name, Location Name
@@ -289,52 +271,6 @@
 \item {Researched psychologically validated cognitive models and implemented an LLM system with memory streams and reflection mechanisms, resulting in more realistic agent behavior.}
 \resumeItemListEnd
 \vspace{-2.0mm}
-
-% \resumeProject
-% {Share bill} %Project Name
-% {A full-stack app for sharing bills. \href{https://github.com/YouMingYeh/share-bill}{\underline{Link}}} %Project Name, Location Name
-% {Feb. 2024} %Event Dates
-
-% \resumeItemListStart
-% \item {Developed a full-stack bill sharing app using Next.js, SupaBase, which allows users to create and share bills with friends.}
-% \item {Utilized the innovative Next.js App router to create a seamless user experience.}
-% \resumeItemListEnd
-
-
-% \resumeProject
-%   {BUJIO APP} %Project Name
-%   {A final Project of Web Programming. A full-stack social app. \href{https://github.com/YouMingYeh/BUJIOAPP}{\underline{Link}}} %Project Name, Location Name
-%   {Jan. 2023} %Event Dates
-
-%   \resumeItemListStart
-%     \item {Developed a MERN full-stack social platform website within a month, using React, Redux, Express, Bcrypt, MongoDB, and OAuth, which has been running online for months.}
-%     \item {Led the development of the website, including designing the user interface, implementing the post writing and friend adding features, and optimizing the website for performance.}
-% \resumeItemListEnd
-% \vspace{-2mm}
-
-% \resumeProject
-%   {PDAO Website} %Project Name
-%   {A promotional website for programming contest PDAO. \href{https://pdaowebsite.gatsbyjs.io/}{\underline{Link}}} %Project Name, Location Name
-%   {Apr. 2023} %Event Dates
-
-%   \resumeItemListStart
-%     \item {Created a promotional website for a large-scale national programming contest using React Gatsby and Styled Components. The website provides information about the contest and encourages users to participate.}
-%     \item {Implemented the design using Styled Components and optimizing the website for search engines.}
-% \resumeItemListEnd
-% \vspace{-2mm}
-\resumeProject
-{Vision Model on Social Media Analysis} %Project Name
-{
-A vision model for social media post to enhance image feature extraction. \href{
-} %Project Name, Location Name
-} %Project Name, Location Name
-{Jan. 2024} %Event Dates
-
-\resumeItemListStart
-\item {Proposed a Multimodal approach (Small Language Model) to enhance the feature extraction of social media posts (images).}
-\item {Conducted Research and implemented the model using Pytorch, successfully improving the feature extraction accuracy of the social media post.}
-\resumeItemListEnd
-\vspace{-3.0mm}
 
 \resumeSubHeadingListEnd
 \vspace{-6mm}
