@@ -1,292 +1,117 @@
-%-------------------------
-% Resume in Latex
-% Author
-% License : MIT
-%------------------------
-
-%---- Required Packages and Functions ----
-
-\documentclass[a4paper,11pt]{article}
-\usepackage{latexsym}
-\usepackage{xcolor}
-\usepackage{float}
-\usepackage{ragged2e}
-\usepackage[empty]{fullpage}
-\usepackage{wrapfig}
-\usepackage{lipsum}
-\usepackage{tabularx}
-\usepackage{titlesec}
-\usepackage{geometry}
-\usepackage{marvosym}
-\usepackage{verbatim}
-\usepackage{enumitem}
-\usepackage[hidelinks]{hyperref}
-\usepackage{fancyhdr}
-\usepackage{fontawesome5}
-\usepackage{multicol}
-\usepackage{graphicx}
-\usepackage{cfr-lm}
+\documentclass[10pt,a4paper]{article}
 \usepackage[T1]{fontenc}
-\setlength{\multicolsep}{0pt} 
-\pagestyle{fancy}
-\fancyhf{} % clear all header and footer fields
-\fancyfoot{}
-\renewcommand{\headrulewidth}{0pt}
-\renewcommand{\footrulewidth}{0pt}
-\geometry{left=1.4cm, top=0.8cm, right=1.2cm, bottom=1cm}
-% Adjust margins
-%\addtolength{\oddsidemargin}{-0.5in}
-%\addtolength{\evensidemargin}{-0.5in}
-%\addtolength{\textwidth}{1in}
-\usepackage[most]{tcolorbox}
-\tcbset{
-    frame code={}
-    center title,
-    left=0pt,
-    right=0pt,
-    top=0pt,
-    bottom=0pt,
-    colback=gray!20,
-    colframe=white,
-    width=\dimexpr\textwidth\relax,
-    enlarge left by=-2mm,
-    boxsep=4pt,
-    arc=0pt,outer arc=0pt,
-}
-
-\urlstyle{same}
-
-\raggedright
-\setlength{\tabcolsep}{0in}
-
-% Sections formatting
-\titleformat{\section}{
-  \vspace{-4pt}\scshape\raggedright\large
-}{}{0em}{}[\color{black}\titlerule \vspace{-7pt}]
-
-%-------------------------
-% Custom commands
-\newcommand{\resumeItem}[2]{
-  \item{
-    \textbf{#1}{\hspace{0.5mm}#2 \vspace{-0.5mm}}
-  }
-}
-
-\newcommand{\resumePOR}[3]{
-\vspace{0.5mm}\item
-    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
-        \textbf{#1}\hspace{0.3mm}#2 & \textit{\small{#3}} 
-    \end{tabular*}
-    \vspace{-2mm}
-}
-
-\newcommand{\resumeSubheading}[4]{
-\vspace{0.5mm}\item
-    \begin{tabular*}{0.98\textwidth}[t]{l@{\extracolsep{\fill}}r}
-        \textbf{#1} & \textit{\footnotesize{#4}} \\
-        \textit{\footnotesize{#3}} &  \footnotesize{#2}\\
-    \end{tabular*}
-    \vspace{-2.4mm}
-}
-
-\newcommand{\resumeProject}[4]{
-\vspace{0.5mm}\item
-    \begin{tabular*}{0.98\textwidth}[t]{l@{\extracolsep{\fill}}r}
-        \textbf{#1} & \textit{\footnotesize{#3}} \\
-        \footnotesize{\textit{#2}} & \footnotesize{#4}
-    \end{tabular*}
-    \vspace{-2.4mm}
-}
-
-\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
-
-% \renewcommand{\labelitemii}{$\circ$}
-\renewcommand{\labelitemi}{$\vcenter{\hbox{\tiny$\bullet$}}$}
-
-\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*,labelsep=0mm]}
-\newcommand{\resumeHeadingSkillStart}{\begin{itemize}[leftmargin=*,itemsep=1.7mm, rightmargin=2ex]}
-\newcommand{\resumeItemListStart}{\begin{justify}\begin{itemize}[leftmargin=3ex, rightmargin=2ex, noitemsep,labelsep=1.2mm,itemsep=0mm]\small}
-
-\newcommand{\resumeSubHeadingListEnd}{\end{itemize}\vspace{2mm}}
-\newcommand{\resumeHeadingSkillEnd}{\end{itemize}\vspace{-2mm}}
-\newcommand{\resumeItemListEnd}{\end{itemize}\end{justify}\vspace{-2mm}}
-\newcommand{\cvsection}[1]{%
-\vspace{2mm}
-\begin{tcolorbox}
-    \textbf{\large #1}
-\end{tcolorbox}
-    \vspace{-4mm}
-}
-
-\newcolumntype{L}{>{\raggedright\arraybackslash}X}%
-\newcolumntype{R}{>{\raggedleft\arraybackslash}X}%
-\newcolumntype{C}{>{\centering\arraybackslash}X}%
-%---- End of Packages and Functions ------
-
-%-------------------------------------------
-%%%%%%  CV STARTS HERE  %%%%%%%%%%%
-%%%%%% DEFINE ELEMENTS HERE %%%%%%%
-\newcommand{\name}{Marx Yeh, You-Ming} % Your Name
-\newcommand{\phone}{+886 976343024} % Your Phone Number
-\newcommand{\emaila}{b10705052@ntu.edu.tw} %Email 1
-\newcommand{\emailb}{ym911216@gmail.com} %Email 2
-
-
-
-
+\usepackage{lmodern}
+\usepackage[margin=1.65cm,top=1.5cm,bottom=1.65cm]{geometry}
+\usepackage{enumitem,titlesec,xcolor,hyperref,fancyhdr}
+\definecolor{ink}{HTML}{242822}
+\definecolor{accent}{HTML}{426849}
+\definecolor{muted}{HTML}{586154}
+\hypersetup{colorlinks=true,urlcolor=accent,pdftitle={You-Ming Yeh - Curriculum Vitae},pdfauthor={You-Ming Yeh}}
+\input{glyphtounicode}
+\pdfgentounicode=1
+\renewcommand{\familydefault}{\sfdefault}
+\color{ink}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{4pt}
+\setlist[itemize]{leftmargin=13pt,itemsep=2pt,topsep=3pt,parsep=0pt}
+\titleformat{\section}{\large\bfseries\color{accent}}{}{0pt}{}[\vspace{2pt}\titlerule]
+\titlespacing*{\section}{0pt}{10pt}{6pt}
+\pagestyle{fancy}\fancyhf{}\renewcommand{\headrulewidth}{0pt}
+\fancyfoot[L]{\scriptsize\color{muted} You-Ming Yeh \enspace / \enspace Curriculum Vitae}
+\fancyfoot[R]{\scriptsize\color{muted}\thepage\ / 2}
+\newcommand{\entry}[3]{\textbf{#1}\hfill{\small\color{muted}#2}\\{\small #3}\par}
 \begin{document}
-\fontfamily{cmr}\selectfont
-%----------HEADING-----------------
+{\fontsize{29}{33}\selectfont\bfseries You-Ming Yeh}\quad{\large\color{muted}Marx}
 
+{\large Co-founder, CEO \& CTO at Kardomo}
 
-\parbox{\dimexpr\linewidth-2.8cm\relax}{
-  \begin{tabularx}{\textwidth}{l@{\extracolsep{\fill}}r}                                                                                                                                                   \\
-    \textbf{\Large \name}                                                                                                                                                                    \\
-    {Software Engineer}                                                                & { Taiwan}                                                                                           \\
-    \href{mailto:\emaila}{\raisebox{0.0\height}{\footnotesize \faEnvelope}\ {\emaila}} & \href{https://github.com/YouMingYeh/}{\raisebox{0.0\height}{\footnotesize \faGithub}\ {YouMingYeh}} \\
-    \href{mailto:\emailb}{\raisebox{0.0\height}{\footnotesize \faEnvelope}\ {\emailb}} & {\raisebox{0.0\height}{\footnotesize \faPhone}\ \phone}                                             \\
-    \href{https://medium.com/@ym911216/}{\raisebox{0.0\height}{\footnotesize \faMedium}\ {@ym911216}}
-  \end{tabularx}
-}
-% \parbox{3.0cm}{%
-% \flushright \includegraphics[width=2cm,clip]{nitp_logo.png}
-% }
+\href{mailto:marx@kardomo.com}{marx@kardomo.com}\quad
+\href{https://yym.vercel.app}{Portfolio}\quad
+\href{https://github.com/YouMingYeh}{GitHub}\quad
+\href{https://www.linkedin.com/in/you-ming-yeh-00b50b272/}{LinkedIn}\hfill Taiwan
 
+\vspace{4pt}
+Founder and engineer building consumer products across mobile, web, and backend systems. Creator of Peeps, a social game for close friends and couples. Combines hands-on product development with user research, iteration, and graduate study at National Taiwan University.
 
-
-\vspace{-4.0mm}
-%-----------EDUCATION-----------
-\section{\textbf{Academics}}
-\resumeSubHeadingListStart
-\resumeSubheading
-{National Taiwan University}{GPA: 4.26 (Last Semester)}
-{Information Management}{July 2021-Present}
-{\\}
-{\scriptsize \textit{ \footnotesize{\newline{}\textbf{Key Courses:} Text Mining, Data Mining, Machine Learning, Deep Learning, Computer Vision, Web Programming, Operation Research, Social Media Analysis, Entrepreneurship, etc}}}
-\vspace{-2mm}
-\resumeSubheading
-{C.P. Wei's Lab and H.W. Lee's Lab }{}
-{Research Assistant}{June 2024-Present}
-{\\}
-{\scriptsize \textit{ \footnotesize{\newline{}
-\textbf{Research Focus:} Social Media Analysis, Deep Learning, Epidemic Modeling, Social Science, Complex Systems}}}
-\resumeSubHeadingListEnd
-\vspace{-9mm}
-%
-
-
-%-----------EXPERIENCE-----------------
-\section{\textbf{Experience}}
-\resumeSubHeadingListStart
-
-\resumeSubheading
-{Kardomo.com}{Jan. 2024 - Present}
-{Co-founder \& Technical Lead}{Full-stack Development, DevOps, UI/UX}
-\vspace{-1.0mm}
-\resumeItemListStart
-\item {Leading end-to-end development of a K-pop marketplace, managing full-stack implementation and infrastructure setup.}
-\item {Spearheading engineering efforts (backend, frontend, infrastructure) within the NTU Garage incubation program.}
-\resumeItemListEnd
-\vspace{-3.0mm}
-
-\resumeSubheading
-{Chunghwa Telecom Laboratories (Work)}{Jul. 2023 - Aug. 2023}
-{Full Stack Developer Intern}{UI/UX, Frontend, Backend, Database, Devops}
-\vspace{-2.0mm}
-\resumeItemListStart
-\item {Developed a backend system for dining reservations, managing data for 100+ branches and processing thousands of entries.}
-\item {Integrated modern UI/UX, DevOps practices, and full-stack technologies.}
-\resumeItemListEnd
-
-\vspace{-3.0mm}
-
-\resumeSubheading
-{PDOGS Judge (School)}{Jul. 2023 - Aug. 2023}
-{DevOps Developer}{Docker, GitLab CI/CD, Jenkins, Nomad}
-\vspace{-1.0mm}
-\resumeItemListStart
-\item {Implemented CI/CD pipelines using Docker, GitLab CI/CD, and Jenkins for the PDOGS school judging system, improving deployment efficiency.}
-\item {Designed backend and judge core CI/CD pipelines; utilized Nomad for deployment orchestration.}
-\resumeItemListEnd
-\vspace{-3.0mm}
-
-\resumeSubheading
-{NTU ArtFest Riddle City Project Manager and Developer (Other)}{Feb. 2024 - Mar. 2024}
-{Full-Stack Developer and Project Manager}{Next.js, PostgreSQL, SupaBase, SEO}
-\vspace{-1.0mm}
-\resumeItemListStart
-\item {Developed and deployed an interactive game platform using Next.js and PostgreSQL.}
-\item {Attracted over 300 players within one week of launch.}
-\resumeItemListEnd
-\vspace{-3.0mm}
-\resumeSubHeadingListEnd
-\vspace{-9mm}
-
-
-
-%-----------PROJECTS-----------------
-\section{\textbf{Works}}
-\resumeSubHeadingListStart
-
-\resumeProject
-{Mono App} %Project Name
-{A 30-day challenge iOS app for goal tracking. Available on the App Store.} %Project Name, Location Name
-{Apr. 2024} %Event Dates
-
-\resumeItemListStart
-\item {Developed and launched a habit-tracking iOS app, achieving 1k+ downloads and 200 DAUs within the first week.}
-\item {Solely managed backend infrastructure (VPS setup, deployment) and maintained a 4.5+ App Store rating.}
-\resumeItemListEnd
-\vspace{-3.0mm}
-
-\resumeProject
-{SamGPT} %Project Name
-{An AI-powered English tutor leveraging advanced language models.} %Project Name, Location Name
-{Mar. 2024} %Event Dates
-
-\resumeItemListStart
-\item {Designed an AI pipeline using ReAct and Chain-of-Thought reasoning, achieving a 95\%+ correct response rate.}
-\item {Engineered the full-stack application (Next.js, APIs) and managed deployment, attracting 700+ waitlist signups.}
-\resumeItemListEnd
-\vspace{-3.0mm}
-
-\resumeProject
-{Production Scheduling Optimization} %Project Name
-{Optimized company production schedules using Operations Research. \href{https://github.com/2024-ntuim-project/or-prototype}{\underline{Link}}} %Project Name, Location Name
-{June. 2024} %Event Dates
-
-\resumeItemListStart
-\item {Developed an optimization system using Python and Gurobi, projected to save millions by improving production efficiency.}
-\item {Formulated a MILP model; implemented Gurobi solver, heuristics, and a comprehensive system as deliverables.}
-\resumeItemListEnd
-\vspace{-3.0mm}
-
-\resumeProject{LLM Agents Enhanced INFEKTA} %Project Name
-{Agent-based epidemic model enhanced with an LLM cognitive framework.}
-%Project Name, Location Name
-{Aug. 2024} %Event Dates
-
-\resumeItemListStart
-\item {Integrated an LLM-based cognitive framework into the INFEKTA model, enabling agent learning and adaptation.}
-\item {Implemented an LLM system with memory and reflection based on cognitive models, enhancing agent behavior realism.}
-\resumeItemListEnd
-\vspace{-2.0mm}
-
-\resumeSubHeadingListEnd
-\vspace{-6mm}
-
-
-
-%-----------Technical skills-----------------
-\section{\textbf{Technical Skills and Interests}}
-\begin{itemize}[leftmargin=0.05in, label={}]
-  \small{\item{
-                \textbf{Frameworks}{: Pytorch, Next.js, FastAPI, React, Hono, LangChain, iOS, DSPy} \\
-                \textbf{Tools}{: Docker, GitLab, Kubernetes, Nomad, Gurobi, Figma, Unity, Selenium, Azure, GCP, AWS} \\
-                \textbf{Coding Languages}{: C, C++, C\#, Python, TypeScript, R, SQL} \\
-                \textbf{Soft Skills}{: Entrepreneurship, System thinking and Design thinking} \\
-                \textbf{Areas of Interest}{: Writing Technical Blogs} \\
-          }}
+\section{Leadership \& Product Experience}
+\entry{Kardomo}{Current}{Co-founder, CEO \& CTO}
+\begin{itemize}
+\item Lead product direction, engineering, and company operations; develop consumer experiences across iOS, Android, web, internal dashboards, and infrastructure.
+\item Built the Kardomo K-pop community product across three platforms and two internal dashboards. Publicly reported reaching \textbf{20,000 users within two months of launch}, alongside its Android release.
 \end{itemize}
-\vspace{-16pt}
+
+\entry{Peeps}{Flagship product}{Social game for close friends and couples \enspace | \enspace \href{https://playpeeps.app}{playpeeps.app}}
+\begin{itemize}
+\item Solo-built the initial app: a shared digital home combining photo posts, chat, room decoration, pets, and mini-games. Extended the product across native iOS, Android, backend services, and operational tooling.
+\item Reached \textbf{No. 1 overall on Taiwan's iOS App Store}, a historical milestone publicly recognized by \href{https://www.linkedin.com/posts/886studios_congrats-to-peeps-one-of-the-teams-in-our-activity-7462441723927896064-CiVc}{886 Studios}.
+\item Reported a \textbf{68\% relative improvement in D30 retention over two months}. Studied long-term users and focused the product loop on posting, receiving responses, and returning to chat.
+\item Redesigned onboarding around group participation and introduced daily group tasks to help friends experience and repeat the core interaction loop.
+\end{itemize}
+
+\section{Selected Engineering Work}
+\entry{NTU Assistant}{Open source}{Browser-driven AI workflow \enspace | \enspace \href{https://github.com/YouMingYeh/ntu}{Repository}}
+\begin{itemize}
+\item Built an installable AI skill that gathers courses, materials, deadlines, schedules, mail, and academic information from NTU systems through browser automation.
+\end{itemize}
+\entry{Commit Chad}{Open source}{AI-assisted command-line tool \enspace | \enspace \href{https://github.com/YouMingYeh/commit-chad}{Repository}}
+\begin{itemize}
+\item Published an npm CLI that generates commit messages from staged changes using OpenAI or Gemini, with confirmation and dry-run options.
+\end{itemize}
+\entry{Peeps Monetization Intelligence}{Spring 2026}{NTU Big Data Systems course project \enspace | \enspace \href{https://github.com/YouMingYeh/r14944035-bds-final}{Case study}}
+\begin{itemize}
+\item Built a SQL-first player feature store and analysis pipeline, holdout-validated propensity modeling, and a read-only dashboard to prioritize monetization opportunities.
+\item Documented historical analysis and opportunity estimates; distinguished model projections from realized business results.
+\end{itemize}
+
+\newpage
+{\large\bfseries You-Ming Yeh}\hfill{\small\color{muted} Education, research \& earlier work}
+
+\section{Education}
+\entry{National Taiwan University}{2025--2027 (expected)}{Master's studies, Graduate Institute of Networking and Multimedia (GINM)}
+Ongoing interests: vision-language models, visual perception, and hallucination mitigation.
+
+\entry{National Taiwan University}{Undergraduate studies}{Information Management}
+Background in information systems, machine learning, computer vision, operations research, and entrepreneurship.
+
+\section{Research \& Academic Projects}
+\entry{LLM-enhanced Agent-based Epidemic Modeling}{Research project}{\href{https://github.com/YouMingYeh/abm}{Public implementation}}
+\begin{itemize}
+\item Explored agents with memory and reflection in epidemic simulations, extending earlier INFEKTA-related work.
+\item Implemented comparisons between rule-based and LLM decision makers across policy communication contexts.
+\end{itemize}
+\entry{Production Scheduling Optimization}{2024}{Operations research project \enspace | \enspace \href{https://github.com/2024-ntuim-project/or-prototype}{Repository}}
+\begin{itemize}
+\item Developed a production-planning model using mixed-integer linear programming, Python, and Gurobi, with heuristic methods and a supporting dashboard.
+\end{itemize}
+\entry{Computer Vision \& Deep Learning}{2024}{Course projects \enspace | \enspace \href{https://github.com/YouMingYeh/dl}{Repository}}
+\begin{itemize}
+\item Investigated image geolocation with MobileNetV3, ResNet, vision transformers, and feature-based nearest-neighbor methods.
+\end{itemize}
+
+\section{Earlier Experience}
+\entry{Chunghwa Telecom Laboratories}{July--August 2023}{Full-stack Developer Intern}
+\begin{itemize}
+\item Developed a dining-reservation backend supporting data for more than 100 branches, with frontend, database, and deployment work.
+\end{itemize}
+\entry{PDOGS Judge}{2023}{DevOps Developer \enspace | \enspace University judging system}
+\begin{itemize}
+\item Implemented backend and judge-core delivery pipelines using Docker, GitLab CI/CD, Jenkins, and Nomad.
+\end{itemize}
+\entry{NTU ArtFest: Riddle City}{February--March 2024}{Full-stack Developer \& Project Manager}
+\begin{itemize}
+\item Built and deployed an interactive riddle-game platform with Next.js and PostgreSQL; reported more than 300 players in its first week.
+\end{itemize}
+
+\section{Recognition \& Community}
+\begin{itemize}
+\item \textbf{Ikigai Launchpad, Spring 2026:} participated with Peeps.
+\item \textbf{Second place, ikigai vibe hack 1.0:} LOCKED IN, with Yu-Jhen (Ronny) Yen.
+\item \textbf{NTU iOS Club speaker:} shared experience in building, shipping, and growing consumer apps.
+\end{itemize}
+
+\section{Technical Focus}
+\textbf{Mobile:} Swift, SwiftUI, React Native, Expo.\quad
+\textbf{Web:} TypeScript, React, Next.js.\\
+\textbf{Backend \& data:} Python, NestJS, PostgreSQL, Supabase, Socket.IO, Docker.\\
+\textbf{AI \& research:} PyTorch, LLM applications, computer vision, agent-based modeling, Gurobi.
 \end{document}
