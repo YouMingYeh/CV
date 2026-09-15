@@ -10,3 +10,5 @@ Reviewed 15 September 2026.
 - **Earlier experience and 2024 coursework:** the previous CV and portfolio. Unverified projected savings, AI accuracy percentages, and stale app metrics were omitted. Earlier internship and event participation counts are retained as previously reported.
 
 The `mllm` repository includes a paper attributed to other researchers; it is not listed as You-Ming Yeh's publication. No publication was established for the ongoing graduate work. Undergraduate completion dates and historical executive-role start dates were not independently established and are omitted.
+
+The historical production-optimization repository is private; the public CV therefore describes the project without linking to that source repository.
